@@ -1,0 +1,138 @@
+SUCESS: 
+
+PS C:\Users\mohit\OneDrive\Desktop\Data\CN\CNProj> python3 .\cn_ass1.py
+The Sending time of the client is :  1678327351.3890362
+Socket is Instialised
+Binding of the socket to localhostd and 8086
+
+Waiting for the connection....
+Client got the connection through ('127.0.0.1', 51255) 
+
+Receiveing Time is :  1678327366.408332
+RTT is : 15.019295930862427
+Request Body: 
+GET / HTTP/1.1
+Host: localhost:8086
+Connection: keep-alive
+sec-ch-ua: "Chromium";v="110", "Not A(Brand";v="24", "Google Chrome";v="110"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7
+
+
+HTTP/1.1 200 OK
+Date: Wed, 08 Mar 2023 20:02:46
+Server: MohitK's Simple Web Server
+Connection: keep-alive
+Content-Type: text/html
+
+
+Client got the connection through ('127.0.0.1', 51256) 
+
+The socket connection timeout value is (10 seconds), closing client socket...
+Receiveing Time is :  1678327376.5131395
+RTT is : 25.124103307724
+Request Body:
+GET /favicon.ico HTTP/1.1
+Host: localhost:8086
+Connection: keep-alive
+sec-ch-ua: "Chromium";v="110", "Not A(Brand";v="24", "Google Chrome";v="110"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:8086/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7
+
+
+404 File Not Found!!!
+HTTP/1.1 404 Not Found
+Date: Wed, 08 Mar 2023 20:02:56
+Server: MohitK's Simple Web Server
+Connection: keep-alive
+Content-Type: text/html
+
+
+Client got the connection through ('127.0.0.1', 51260) 
+
+Receiveing Time is :  1678327376.753458
+RTT is : 25.364421844482422
+Request Body:
+GET / HTTP/1.1
+Host: localhost:8086
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+Accept: */*
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7
+
+
+HTTP/1.1 200 OK
+Date: Wed, 08 Mar 2023 20:02:56
+Server: MohitK's Simple Web Server
+Connection: keep-alive
+Content-Type: text/html
+
+
+Client got the connection through ('127.0.0.1', 51261) 
+
+The socket connection timeout value is (10 seconds), closing client socket...
+The socket connection timeout value is (10 seconds), closing client socket...
+Receiveing Time is :  1678327906.028667
+RTT is : 554.6396307945251
+Closing the connection for client as there is no active connection!!
+
+ERROR: 
+
+The Sending time of the client is :  1678333713.423879
+Socket is Instialised
+Binding of the socket to localhostd and 8086
+
+Waiting for the connection....
+Client got the connection through ('127.0.0.1', 51744) 
+
+Receiveing Time is :  1678333725.0760057
+RTT is : 11.652126789093018
+Request Body: 
+GET / HTTP/1.1
+Host: localhost:8086
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: "Chromium";v="110", "Not A(Brand";v="24", "Google Chrome";v="110"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7
+
+
+404 File Not Found!!!
+HTTP/1.1 404 Not Found
+Date: Wed, 08 Mar 2023 21:48:45
+Server: MohitK's Simple Web Server
+Connection: keep-alive
+Content-Type: text/html
+
+
+The socket connection timeout value is (10 seconds), closing client socket...
